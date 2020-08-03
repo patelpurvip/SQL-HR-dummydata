@@ -25,7 +25,7 @@ Once a complete database is in place, do the following:
 8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
 -----
 
-## Iniitial Database Loading
+## Database Loading & Queries
 Based on the provided information, I created the following ER Diagram:
 
 ![ERD](ERD.png)
@@ -37,10 +37,12 @@ Based on the provided information, I created the following ER Diagram:
 ### STEP 2: Queries
 * After creating the structure, the source data tables can be imported directly into each of the 6 corresponding tables in Postgres. 
 * Once the database has been loaded into all tables, you can run each of the queries contained in the  `PPatel-SQLanalysis-code.sql` file one-by-one, to answer questions 1-8 listed above.
-
+-----
 
 ## Bonus Exercise
-The exercise then provided the following additional prompt:
+
+### Instructions
+**The exercise then provided the following additional prompt:**
 As you examine the data, you are overcome with a creeping suspicion that the dataset is fake. You surmise that your boss handed you spurious data in order to test the data engineering skills of a new employee. To confirm your hunch, you decide to do some additional analysis and generate a visualization of the data.
 1. Consult [SQLAlchemy documentation](https://docs.sqlalchemy.org/en/latest/core/engines.html#postgresql) for more information.
 2. Create a histogram to visualize the most common salary ranges for employees.
@@ -55,18 +57,19 @@ As you examine the data, you are overcome with a creeping suspicion that the dat
 ### Bonus Analysis
 The bonus exercise is housed in the `SQLAlchemy-Additional-Analysis` file. The analysis generated the following visualizations:
 
-#### MOST COMMON EMPLOYEE SALARY RANGES
+### MOST COMMON EMPLOYEE SALARY RANGES
 ![Histogram](Images/histogram.png)
 
 
-#### AVERAGE SALARY BY JOB TITLE
+### AVERAGE SALARY BY JOB TITLE
 ![Bar](Images/bar.png)
 
 
 The histogram shows that the vast majority of salaries in the compay are in the lower tier of positions within the company.  However, the bar chart of average salary by title show much more uniform data across the entire range.  These two pieces of data taken together do not necessarily make sense together.  For example, Assistant Engineer, Engineer, and Senior Engineer positions all show the same average salaries.  Additionally, a position entitled "Senior Staff" has the same average salary as a position entitled "Staff".  
-
+-----
 
 ## Epilogue
-PROMPT: Evidence in hand, you march into your boss's office and present the visualization. With a sly grin, your boss thanks you for your work. On your way out of the office, you hear the words, "Search your ID number." You look down at your badge to see that your employee ID number is 499942.
+**PROMPT:** 
+Evidence in hand, you march into your boss's office and present the visualization. With a sly grin, your boss thanks you for your work. On your way out of the office, you hear the words, "Search your ID number." You look down at your badge to see that your employee ID number is 499942.
 
 > the following query search in the database (SELECT * FROM employees WHERE emp_no = 499942;) returns an employee by the name of "April Foolsday"
