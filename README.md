@@ -31,11 +31,13 @@ Based on the provided information, I created the following ER Diagram:
 ![ERD](ERD.png)
 
 ### STEP 1: Create the database structure in PostgreSQL:
+To replicate the exercise:
 * Create a database in your PostGreSQL system names employees_db
-* Running the `PPatel-SQLschema-code.sql` file will allow you to create the same database on a local version of Postgres. 
+* Run the `PPatel-SQLschema-code.sql` file will allow you to create the same database on a local version of Postgres. 
 
 ### STEP 2: Queries
-* After creating the structure, the source data tables can be imported directly into each of the 6 corresponding tables in Postgres. 
+After creating the structure:
+* Source data tables can be imported directly into each of the 6 corresponding tables in Postgres. 
 * Once the database has been loaded into all tables, you can run each of the queries contained in the  `PPatel-SQLanalysis-code.sql` file one-by-one, to answer questions 1-8 listed above.
 -----
 
@@ -68,7 +70,7 @@ The analysis generated the following visualizations:
 ### AVERAGE SALARY BY JOB TITLE
 ![Bar](Images/bar.png)
 
-The histogram shows that the vast majority of salaries in the compay are in the lower tier of positions within the company.  However, the bar chart of average salary by title show much more uniform data across the entire range.  These two pieces of data taken together do not necessarily make sense together.  For example, Assistant Engineer, Engineer, and Senior Engineer positions all show the same average salaries.  Additionally, a position entitled "Senior Staff" has the same average salary as a position entitled "Staff". 
+The histogram shows that the vast majority of salaries in the company are in the lower range within the company.  However, the bar chart of average salary by title show much more uniform data across the entire range.  These two pieces of data taken together do not necessarily make sense.  For example, Assistant Engineer, Engineer, and Senior Engineer positions all show the same average salaries.  Additionally, a position entitled "Senior Staff" has the same average salary as a position entitled "Staff". 
  
 -----
 
