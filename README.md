@@ -25,3 +25,17 @@ Once a complete database is in place, do the following:
 8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
 -----
 
+## Iniitial Database Loading
+Based on the provided information, I created the following ER Diagram:
+
+![ERD](ERD.png)
+
+SQL analysis conducted accroding to the above prompt is housed in the following files, create in PostgreSQL:
+* `PPatel-SQLschema-code.sql`
+* `PPatel-SQLanalysis-code.sql`
+
+These files will allow you to create the same database on a local version of Postgres. 
+
+Before running the code, you will need to create a file entitled config.py as follows, access the local Postgres database :
+user = "YOUR USERNAME HERE"
+password = "YOUR PASSWORD HERE"
