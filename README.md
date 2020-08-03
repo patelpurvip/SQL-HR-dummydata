@@ -36,6 +36,7 @@ SQL analysis conducted accroding to the above prompt is housed in the following 
 
 These files will allow you to create the same database on a local version of Postgres. 
 
-> Before running the code, you will need to create a file entitled config.py as follows, access the local Postgres database :
+> Before running the code, you will need to create a file entitled config.py as follows, access the local Postgres database:
+
 user = "YOUR USERNAME HERE"
 password = "YOUR PASSWORD HERE"
