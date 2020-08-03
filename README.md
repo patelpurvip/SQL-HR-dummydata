@@ -48,14 +48,18 @@ As you examine the data, you are overcome with a creeping suspicion that the dat
 2. Create a histogram to visualize the most common salary ranges for employees.
 3. Create a bar chart of average salary by title.
 
+
+### Bonus Analysis
+The bonus exercise is housed in the `SQLAlchemy-Additional-Analysis.ipynb` file. 
 > Before running the code in the jupyter notebook, you will need to create a file entitled config.py to access the local Postgres database, with two lines of content, as follows:
 
 > user = "YOUR USERNAME HERE"
 
 > password = "YOUR PASSWORD HERE"
 
-### Bonus Analysis
-The bonus exercise is housed in the `SQLAlchemy-Additional-Analysis` file. The analysis generated the following visualizations:
+
+
+The analysis generated the following visualizations:
 
 ### MOST COMMON EMPLOYEE SALARY RANGES
 ![Histogram](Images/histogram.png)
