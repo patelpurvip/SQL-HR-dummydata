@@ -41,3 +41,11 @@ These files will allow you to create the same database on a local version of Pos
 > user = "YOUR USERNAME HERE"
 
 > password = "YOUR PASSWORD HERE"
+
+
+## Bonus Exercise
+The exercise then provided the following additional prompt:
+As you examine the data, you are overcome with a creeping suspicion that the dataset is fake. You surmise that your boss handed you spurious data in order to test the data engineering skills of a new employee. To confirm your hunch, you decide to do some additional analysis and generate a visualization of the data.
+1. Consult [SQLAlchemy documentation](https://docs.sqlalchemy.org/en/latest/core/engines.html#postgresql) for more information.
+2. Create a histogram to visualize the most common salary ranges for employees.
+3. Create a bar chart of average salary by title.
