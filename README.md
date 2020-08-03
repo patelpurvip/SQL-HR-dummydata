@@ -36,12 +36,6 @@ Running the `PPatel-SQLschema-code.sql` file will allow you to create the same d
 ### STEP 2: Queries
 After creating the structure, the source data tables can be imported directly into each of the 6 corresponding tables in Postgres.  Once the database has been loaded into all tables, you can run each of the queries contained in the  `PPatel-SQLanalysis-code.sql` file one-by-one, to answer questions 1-8 listed above.
 
-> Before running the code, you will need to create a file entitled config.py to access the local Postgres database, with two lines of content, as follows:
-
-> user = "YOUR USERNAME HERE"
-
-> password = "YOUR PASSWORD HERE"
-
 
 ## Bonus Exercise
 The exercise then provided the following additional prompt:
@@ -49,6 +43,12 @@ As you examine the data, you are overcome with a creeping suspicion that the dat
 1. Consult [SQLAlchemy documentation](https://docs.sqlalchemy.org/en/latest/core/engines.html#postgresql) for more information.
 2. Create a histogram to visualize the most common salary ranges for employees.
 3. Create a bar chart of average salary by title.
+
+> Before running the code in the jupyter notebook, you will need to create a file entitled config.py to access the local Postgres database, with two lines of content, as follows:
+
+> user = "YOUR USERNAME HERE"
+
+> password = "YOUR PASSWORD HERE"
 
 ### Bonus Analysis
 The bonus exercise is housed in the `SQLAlchemy-Additional-Analysis` file. The analysis generated the following visualizations:
