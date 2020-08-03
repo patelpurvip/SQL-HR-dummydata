@@ -55,9 +55,13 @@ As you examine the data, you are overcome with a creeping suspicion that the dat
 ### Bonus Analysis
 The bonus exercise is housed in the `SQLAlchemy-Additional-Analysis` file. The analysis generated the following visualizations:
 
-![Histogram]()
+#### MOST COMMON EMPLOYEE SALARY RANGES
+![Histogram](Images/histogram.png)
 
-![Bar]()
+
+#### AVERAGE SALARY BY JOB TITLE
+![Bar](Images/bar.png)
+
 
 The histogram shows that the vast majority of salaries in the compay are in the lower tier of positions within the company.  However, the bar chart of average salary by title show much more uniform data across the entire range.  These two pieces of data taken together do not necessarily make sense together.  For example, Assistant Engineer, Engineer, and Senior Engineer positions all show the same average salaries.  Additionally, a position entitled "Senior Staff" has the same average salary as a position entitled "Staff".  
 
