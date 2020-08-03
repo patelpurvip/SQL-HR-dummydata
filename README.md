@@ -30,11 +30,11 @@ Based on the provided information, I created the following ER Diagram:
 
 ![ERD](ERD.png)
 
-SQL analysis conducted accroding to the above prompt is housed in the following files, create in PostgreSQL:
-* `PPatel-SQLschema-code.sql`
-* `PPatel-SQLanalysis-code.sql`
+### STEP 1: Create the database structure in PostgreSQL:
+Running the `PPatel-SQLschema-code.sql` file will allow you to create the same database on a local version of Postgres. 
 
-These files will allow you to create the same database on a local version of Postgres. 
+### STEP 2: Queries
+After creating the structure, the source data tables can be imported directly into each of the 6 corresponding tables in Postgres.  Once the database has been loaded into all tables, you can run each of the queries contained in the  `PPatel-SQLanalysis-code.sql` file one-by-one, to answer questions 1-8 listed above.
 
 > Before running the code, you will need to create a file entitled config.py to access the local Postgres database, with two lines of content, as follows:
 
