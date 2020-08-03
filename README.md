@@ -38,6 +38,6 @@ These files will allow you to create the same database on a local version of Pos
 
 > Before running the code, you will need to create a file entitled config.py as follows, access the local Postgres database:
 
->user = "YOUR USERNAME HERE"
+> user = "YOUR USERNAME HERE"
 
->password = "YOUR PASSWORD HERE"
+> password = "YOUR PASSWORD HERE"
