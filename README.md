@@ -31,10 +31,12 @@ Based on the provided information, I created the following ER Diagram:
 ![ERD](ERD.png)
 
 ### STEP 1: Create the database structure in PostgreSQL:
-Running the `PPatel-SQLschema-code.sql` file will allow you to create the same database on a local version of Postgres. 
+* Create a database in your PostGreSQL system names employees_db
+* Running the `PPatel-SQLschema-code.sql` file will allow you to create the same database on a local version of Postgres. 
 
 ### STEP 2: Queries
-After creating the structure, the source data tables can be imported directly into each of the 6 corresponding tables in Postgres.  Once the database has been loaded into all tables, you can run each of the queries contained in the  `PPatel-SQLanalysis-code.sql` file one-by-one, to answer questions 1-8 listed above.
+* After creating the structure, the source data tables can be imported directly into each of the 6 corresponding tables in Postgres. 
+* Once the database has been loaded into all tables, you can run each of the queries contained in the  `PPatel-SQLanalysis-code.sql` file one-by-one, to answer questions 1-8 listed above.
 
 
 ## Bonus Exercise
