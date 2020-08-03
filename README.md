@@ -7,13 +7,13 @@ It is a beautiful spring day, and it is two weeks since you have been hired as a
 
 In this assignment, you will design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data. In other words, you will perform:
 
-#### 1) Data Modeling
+### 1) Data Modeling
 Inspect the CSVs and sketch out an ERD of the tables.
 
-#### 2) Data Engineering
+### 2) Data Engineering
 Use the information you have to create a table schema for each of the six CSV files, specifying data types, primary keys, foreign keys, and other constraints. Import each CSV file into the corresponding SQL table.
 
-#### 3) Data Analysis
+### 3) Data Analysis
 Once a complete database is in place, do the following:
 1. List the following details of each employee: employee number, last name, first name, gender, and salary.
 2. List employees who were hired in 1986.
